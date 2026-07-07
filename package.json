@@ -1,0 +1,24 @@
+{
+  "name": "eduwest-crm",
+  "version": "1.0.0",
+  "description": "EduWest CRM with UK University Database",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "test": "jest",
+    "test:supabase": "node scripts/test-supabase.js",
+    "seed": "node scripts/seedDatabase.js"
+  },
+  "keywords": ["crm", "education", "universities"],
+  "author": "EduWest Study Abroad",
+  "license": "MIT",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.38.0",
+    "express": "^4.18.0",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}
